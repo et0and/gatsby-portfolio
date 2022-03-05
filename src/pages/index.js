@@ -66,12 +66,12 @@ const IndexPage = () => {
     <main>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Daniel Destefanis Product Designer - Home</title>
-        <meta name="description" content="The work of Daniel Destefanis, a product design manager from Chicag currently working at Discord." />
+        <title>Tom Hackshaw - Home</title>
+        <meta name="description" content="The work of Tom Hackshaw, a product designer based in Tāmaki Makaurau, Aotearoa" />
         <link rel="canonical" href="https://danield.design/" />
       </Helmet>
       <Navigation onLinkEnter={linkEnter} onLinkLeave={cursorLeave}/>
-      <Hero text="I’m a designer who’s passionate about solving problems and creating delightful user experiences." details={true}/>
+      <Hero text="I am a designer interested in making products that are accessible, beautiful and fun." details={true}/>
       <ClientOnly>
         <Cursor cursorText={cursorText} cursorVariant={cursorVariant} />
         <WorkGrid onProjectEnter={projectEnter} onProjectLeave={cursorLeave} />
