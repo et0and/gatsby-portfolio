@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Helmet } from "react-helmet"
 
 import Cursor from "../components/Cursor.js"
-import ClientOnly from "../components/ClientOnly.js"
 import Navigation from "../components/Navigation.js"
 import Hero from "../components/Hero.js"
 import WorkGrid from "../components/WorkGrid.js"
@@ -72,11 +71,6 @@ const IndexPage = () => {
       </Helmet>
       <Navigation onLinkEnter={linkEnter} onLinkLeave={cursorLeave}/>
       <Hero text="I am a designer interested in making products that are accessible, beautiful and fun." details={true}/>
-      <ClientOnly>
-        <Cursor cursorText={cursorText} cursorVariant={cursorVariant} />
-        <WorkGrid onProjectEnter={projectEnter} onProjectLeave={cursorLeave} />
-        <AboutSection />
-      </ClientOnly>
       <Footer onFooterEnter={contactEnter} onFooterLeave={cursorLeave} onLinkEnter={linkEnter} onLinkLeave={cursorLeave}/>
     </main>
   )
