@@ -24,10 +24,10 @@ function Footer(props) {
       <div className={styles.footer}>
         <div className={styles.card} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>
           <h2 className={styles.title}>
-            Question about my work?
+            Want to talk?
           </h2>
           <h2 className={`${styles.title} ${styles.contact} `}>
-            <a href="https://www.linkedin.com/in/danielrd/">Let's chat.</a>
+            <a href="mailto:tom@tomhackshaw.com">Send me an email.</a>
           </h2>
         </div>
         <nav className={styles.footerLinks}>
