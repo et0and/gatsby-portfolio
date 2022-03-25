@@ -128,7 +128,7 @@ function Navigation(props) {
             transition={{ type: 'spring', delay: 0 }}
           >
             <div className={styles.logo}>
-              <Link to="/" className={styles.logo} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>Daniel Destefanis</Link>
+              <Link to="/" className={styles.logo} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>Tom Hackshaw</Link>
             </div>
             <div className={styles.navList}>
               {/* <Link to="/about" className={styles.navLink} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}><span>About</span></Link>
@@ -180,7 +180,7 @@ function Navigation(props) {
               animate="visible"
               exit="exit">
               <div className={styles.wrapper}>
-                <h5 class={styles.label}>Not Case Studies</h5>
+                <h5 class={styles.label}>More info</h5>
                 <motion.ul variants={listVariants} className={styles.list}>
                   <motion.li
                     variants={item}
@@ -230,14 +230,14 @@ function Navigation(props) {
                 </motion.ul>
                 <h5 class={styles.label}>Follow</h5>
                 <motion.div className={styles.socialIcons}>
-                  <Link to="https://twitter.com/daniel__designs">
+                  <Link to="https://twitter.com/tomhackshaw">
                     <img
                       src={twitterIcon} 
                       alt="Twitter Icon" 
                       className={styles.social} 
                     />
                   </Link>
-                  <Link to="https://www.linkedin.com/in/danielrd/">
+                  <Link to="https://linkedin.com/in/tom-hackshaw/">
                     <img
                       src={linkedinIcon} 
                       alt="LinkedIn Icon" 
