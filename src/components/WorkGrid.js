@@ -58,9 +58,9 @@ function WorkGrid(props) {
             image="https://newportfolio.s3.us-west-2.amazonaws.com/server-video-final/featured-tile.png"
             imageAlt="Discord server video ui"
             link="/server-video"
-            color="pink"
-            title="Server Video"
-            key="Server Video"
+            color="yellow"
+            title="Sophia"
+            key="Sophia"
             size="featured"
             onProjectEnter={projectEnter}
             onProjectLeave={projectLeave}
