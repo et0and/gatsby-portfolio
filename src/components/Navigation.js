@@ -195,7 +195,7 @@ function Navigation(props) {
                   <motion.li
                     variants={item}
                   >
-                    <Link to="/server-video" className={styles.link} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} onClick={updateNav}>
+                    <Link to="/sophia" className={styles.link} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} onClick={updateNav}>
                       <span>Sophia</span>
                     </Link>
                   </motion.li>

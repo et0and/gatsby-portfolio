@@ -376,9 +376,9 @@ const DiscordGrowth = () => {
             <Card
               image="https://newportfolio.s3.us-west-2.amazonaws.com/server-video-final/server-video-tile-imagee.png"
               imageAlt="Mockup of Discord's video chat feature with a person using it"
-              link="/server-video"
-              color="pink"
-              title="Server Video"
+              link="/sophia"
+              color="yellow"
+              title="Sophia"
               size="normal"
               onProjectEnter={projectEnter}
               onProjectLeave={cursorLeave}

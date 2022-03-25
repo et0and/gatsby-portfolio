@@ -56,7 +56,7 @@ function WorkGrid(props) {
             // image="https://newportfolio.s3-us-west-2.amazonaws.com/server-video-image.png"
             image="https://newportfolio.s3.us-west-2.amazonaws.com/server-video-final/featured-tile.png"
             imageAlt="Discord server video ui"
-            link="/server-video"
+            link="/sophia"
             color="yellow"
             title="Sophia"
             key="Sophia"

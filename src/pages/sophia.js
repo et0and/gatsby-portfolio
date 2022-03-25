@@ -106,11 +106,11 @@ const ServerVideo = () => {
         <div class="grid">
           <div className="project-intro">
             <h1 className="project-title">
-              Server Video
+              Sophia
             </h1>
             <div className="project-description">
               <p className="paragraph--large project-lede">
-                Bringing video, voice, and streaming to millions of people using Discord everyday.
+                A health portal that changes as you do.
               </p>
             </div>
             <ClientOnly>
