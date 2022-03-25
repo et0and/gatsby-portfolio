@@ -68,10 +68,10 @@ const IndexPage = () => {
         <meta charSet="utf-8" />
         <title>Tom Hackshaw - Home</title>
         <meta name="description" content="The work of Tom Hackshaw, a product designer based in Tāmaki Makaurau, Aotearoa" />
-        <link rel="canonical" href="https://danield.design/" />
+        <link rel="canonical" href="https://tom.so" />
       </Helmet>
       <Navigation onLinkEnter={linkEnter} onLinkLeave={cursorLeave}/>
-      <Hero text="I am a 🇯🇵🇳🇿 designer interested in making products that are accessible, beautiful and fun." details={true}/>
+      <Hero text="I am a 🇯🇵 🇳🇿 designer interested in making products that are accessible, beautiful and fun." details={true}/>
       <ClientOnly>
         <Cursor cursorText={cursorText} cursorVariant={cursorVariant} />
         <WorkGrid onProjectEnter={projectEnter} onProjectLeave={cursorLeave} />

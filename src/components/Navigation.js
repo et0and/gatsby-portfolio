@@ -203,21 +203,21 @@ function Navigation(props) {
                     variants={item}
                   >
                     <Link to="/discord-growth" className={styles.link} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} onClick={updateNav}>
-                      <span>Discord Growth</span>
+                      <span>Te Wahi Auaha</span>
                     </Link>
                   </motion.li>
                   <motion.li
                     variants={item}
                   >
                     <Link to="/design-tooling" className={styles.link} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} onClick={updateNav}>
-                      <span>Design Tooling</span>
+                      <span>KAMAR analysis</span>
                     </Link>
                   </motion.li>
                   <motion.li
                     variants={item}
                   >
                     <Link to="/destiny-medals" className={styles.link} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}  onClick={updateNav}>
-                      <span>Destiny Medals</span>
+                      <span>Google Classroom analysis</span>
                     </Link>
                   </motion.li>
                   <motion.li
