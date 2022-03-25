@@ -62,21 +62,21 @@ const AboutPage = () => {
         <motion.section className="grid">
           <div className={styles.aboutGrid}>
             <motion.div className={`${styles.video} ${styles.first}`}>
-              <video src="https://newportfolio.s3-us-west-2.amazonaws.com/daniel.mp4" className={styles.video} autoPlay muted loop />
+              <img src="https://images.unsplash.com/photo-1647774493468-740017fcbe0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" className={styles.video} />
             </motion.div>
             <motion.div className={styles.wrapper}>
               <div className={styles.smallVideo}>
-                <video src="https://newportfolio.s3-us-west-2.amazonaws.com/wave.mp4" className={styles.video} autoPlay muted loop />
+                <img src="https://images.unsplash.com/photo-1647774493468-740017fcbe0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" className={styles.video} />
               </div>
               <div className={`${styles.smallVideo} ${styles.second}`}>
-                <video src="https://newportfolio.s3-us-west-2.amazonaws.com/franklin.mp4" className={styles.video} autoPlay muted loop onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
+                <img src="https://images.unsplash.com/photo-1647774493468-740017fcbe0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" className={styles.video} onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
               </div>
             </motion.div>
             <motion.div className={`${styles.video} ${styles.third}`}>
-              <video src="https://newportfolio.s3-us-west-2.amazonaws.com/mondo.mp4" className={styles.video} autoPlay muted loop  onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
+              <img src="https://images.unsplash.com/photo-1647774493468-740017fcbe0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" className={styles.video} onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
             </motion.div>
             <motion.div className={`${styles.video} ${styles.fourth}`}>
-              <video src="https://newportfolio.s3-us-west-2.amazonaws.com/irma.mp4" className={styles.video} autoPlay muted loop onMouseEnter={photoEnter} onMouseLeave={cursorLeave} />
+              <img src="https://images.unsplash.com/photo-1647774493468-740017fcbe0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" className={styles.video} onMouseEnter={photoEnter} onMouseLeave={cursorLeave} />
             </motion.div>
           </div>
         </motion.section>
