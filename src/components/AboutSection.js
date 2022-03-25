@@ -70,7 +70,7 @@ function AboutSection() {
           </h2>
           <Link to="/about">
             <a href="/about" className={styles.link}>
-              About Me ->
+              About Me
             </a>
           </Link>
         </motion.div>

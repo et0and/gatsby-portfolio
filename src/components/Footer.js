@@ -32,7 +32,7 @@ function Footer(props) {
         </div>
         <nav className={styles.footerLinks}>
           <div className={styles.openSource}>
-          © 2022.
+          © 2022 Tom Hackshaw
           </div>
           <div className={styles.socialLinks}>
             <a href="https://twitter.com/tomhackshaw" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>

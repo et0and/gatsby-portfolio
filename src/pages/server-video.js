@@ -75,8 +75,8 @@ const ServerVideo = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Daniel Destefanis Product Designer - Server Video Case Study</title>
-        <meta name="description" content="Case study for Discord Server Video feature." />
+        <title>Sophia Case Study - Tom Hackshaw</title>
+        <meta name="description" content="Case study for Sophia - a responsive health portal." />
         <link rel="canonical" href="https://danield.design/server-video/" />
       </Helmet>
       <div>
@@ -100,7 +100,7 @@ const ServerVideo = () => {
               </motion.figure>
             </ClientOnly>
           </div>
-          <div className="project-hero-background pink"></div>
+          <div className="project-hero-background yellow"></div>
         </motion.div>
 
         <div class="grid">
