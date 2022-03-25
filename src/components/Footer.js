@@ -32,20 +32,17 @@ function Footer(props) {
         </div>
         <nav className={styles.footerLinks}>
           <div className={styles.openSource}>
-            View this portfolio on <a href="https://www.figma.com/@daniel" onMouseEnter={linkEnter} onMouseLeave={linkLeave}>Figma</a> or <a href="https://github.com/destefanis/gatsby-portfolio" onMouseEnter={linkEnter} onMouseLeave={linkLeave}>Github</a>.
+          © 2022.
           </div>
           <div className={styles.socialLinks}>
-            <a href="https://twitter.com/daniel__designs" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>
+            <a href="https://twitter.com/tomhackshaw" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>
               Twitter
             </a>
-            <a href="https://github.com/destefanis" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>
-              Github
+            <a href="https://github.com/et0and" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>
+              GitHub
             </a>
-            <a href="https://www.linkedin.com/in/danielrd/" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>
+            <a href="https://www.linkedin.com/in/tom-hackshaw/" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>
               LinkedIn
-            </a>
-            <a href="https://dribbble.com/danielrd/shots" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>
-              Dribbble
             </a>
           </div>
         </nav>
