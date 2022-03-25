@@ -217,33 +217,6 @@ const AboutPage = () => {
           </div>
         </motion.section>
 
-        <motion.section className="container next-project">
-          <div className="grid">
-            <h2 className="h2 grid-title">Next Project</h2>
-          </div>
-          <div className="grid work-grid">
-            <Card
-              image="https://newportfolio.s3.us-west-2.amazonaws.com/server-video-final/server-video-tile-imagee.png"
-              imageAlt="Mockup of Discord's video chat feature with a person using it"
-              link="/server-video"
-              color="pink"
-              title="Server Video"
-              size="normal"
-              onProjectEnter={projectEnter}
-              onProjectLeave={cursorLeave}
-            />
-            <Card
-              image="https://newportfolio.s3-us-west-2.amazonaws.com/discord-onboarding-image.png"
-              imageAlt="Image of Discord's Onboarding Screen"
-              link="/discord-growth"
-              color="blue"
-              title="Discord Onboarding"
-              size="normal"
-              onProjectEnter={projectEnter}
-              onProjectLeave={cursorLeave}
-            />
-          </div>
-        </motion.section>
         <Footer onFooterEnter={contactEnter} onFooterLeave={cursorLeave} onLinkEnter={linkEnter} onLinkLeave={cursorLeave}/>
 
       </div>
