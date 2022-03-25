@@ -71,7 +71,7 @@ const IndexPage = () => {
         <link rel="canonical" href="https://danield.design/" />
       </Helmet>
       <Navigation onLinkEnter={linkEnter} onLinkLeave={cursorLeave}/>
-      <Hero text="I am a designer interested in making products that are accessible, beautiful and fun." details={true}/>
+      <Hero text="I am a 🇯🇵🇳🇿 designer interested in making products that are accessible, beautiful and fun." details={true}/>
       <ClientOnly>
         <Cursor cursorText={cursorText} cursorVariant={cursorVariant} />
         <WorkGrid onProjectEnter={projectEnter} onProjectLeave={cursorLeave} />
