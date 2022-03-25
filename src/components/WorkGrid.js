@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 import { motion, AnimatePresence } from 'framer-motion'
 import useInView from "react-cool-inview";
 import Card from '../components/Card'
-import FeaturedCard from './FeaturedCard'
 
 function WorkGrid(props) {
   // const [visibleState, setVisibleState] = useState("initial");
@@ -53,7 +52,7 @@ function WorkGrid(props) {
   return (
     <div className="grid">
       <div className="work-grid">
-          <FeaturedCard 
+          <Card 
             // image="https://newportfolio.s3-us-west-2.amazonaws.com/server-video-image.png"
             image="https://newportfolio.s3.us-west-2.amazonaws.com/server-video-final/featured-tile.png"
             imageAlt="Discord server video ui"
