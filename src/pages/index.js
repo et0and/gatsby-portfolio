@@ -20,7 +20,7 @@ const IndexPage = () => {
   const [cursorVariant, setCursorVariant] = useState("default");
 
   function projectEnter(event) {
-    setCursorText("View");
+    setCursorText("👀");
     setCursorVariant("project");
   }
 
@@ -30,7 +30,7 @@ const IndexPage = () => {
   }
 
   function contactEnter(event) {
-    setCursorText("👋");
+    setCursorText("✉️");
     setCursorVariant("contact");
   }
 
