@@ -90,7 +90,7 @@ function WorkGrid(props) {
             image="https://newportfolio.s3-us-west-2.amazonaws.com/destiny-medals-image.png"
             link="/destiny-medals"
             imageAlt="Image of Destiny Medals Project"
-            title="Google Classroom analysis"
+            title="Aion"
             color="yellow"
             size="normal"
             onProjectEnter={projectEnter}

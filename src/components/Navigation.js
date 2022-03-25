@@ -217,14 +217,7 @@ function Navigation(props) {
                     variants={item}
                   >
                     <Link to="/destiny-medals" className={styles.link} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}  onClick={updateNav}>
-                      <span>Google Classroom analysis</span>
-                    </Link>
-                  </motion.li>
-                  <motion.li
-                    variants={item}
-                  >
-                    <Link to="/steelseries" className={styles.link} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} onClick={updateNav}>
-                      <span>SteelSeries</span>
+                      <span>Aion</span>
                     </Link>
                   </motion.li>
                 </motion.ul>
