@@ -65,7 +65,7 @@ function WorkGrid(props) {
             onProjectLeave={projectLeave}
           />
           <Card 
-            image="https://newportfolio.s3-us-west-2.amazonaws.com/discord-onboarding-image.png"
+            image="https://tom.so/media/tewahimock.png"
             link="/discord-growth"
             imageAlt="Phone displaying Discord Templates UI"
             color="yellow"
