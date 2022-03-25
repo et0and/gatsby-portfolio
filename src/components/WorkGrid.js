@@ -61,7 +61,7 @@ function WorkGrid(props) {
             color="yellow"
             title="Sophia"
             key="Sophia"
-            size="featured"
+            size="normal"
             onProjectEnter={projectEnter}
             onProjectLeave={projectLeave}
           />
@@ -93,17 +93,6 @@ function WorkGrid(props) {
             title="Google Classroom analysis"
             color="yellow"
             size="normal"
-            onProjectEnter={projectEnter}
-            onProjectLeave={projectLeave}
-          />
-          <Card 
-            image="https://newportfolio.s3-us-west-2.amazonaws.com/steelseries-image.png"
-            link="/steelseries"
-            imageAlt="SteelSeries Engine UI"
-            title="SteelSeries"
-            color="yellow"
-            size="normal"
-            alignment="bottom"
             onProjectEnter={projectEnter}
             onProjectLeave={projectLeave}
           />
