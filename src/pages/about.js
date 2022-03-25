@@ -48,12 +48,12 @@ const AboutPage = () => {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Daniel Destefanis Product Design - About Me</title>
-          <meta name="description" content="Daniel Destefanis is a product design manager from Chicago, working at Discord." />
+          <title>About Me - Tom Hackshaw</title>
+          <meta name="description" content="Tom Hackshaw is a product designer from Auckland, New Zealand." />
           <link rel="canonical" href="https://danield.design/about/" />
         </Helmet>
         <Navigation onLinkEnter={linkEnter} onLinkLeave={cursorLeave} />
-        <Hero text="I’m a husband, dad to three pets, and a designer who’s trying not to take himself too seriously." details={false} />
+        <Hero text="He aha te mea nui o te ao?  He tāngata, he tāngata, he tāngata." details={false} />
   
         <ClientOnly>
           <Cursor cursorText={cursorText} cursorVariant={cursorVariant} />
@@ -82,21 +82,14 @@ const AboutPage = () => {
         </motion.section>
         <motion.section className="grid about">
           <div className="bio">
-            <h2 className="h2">I’m currently helping to lead, mentor, and grow the team at Discord as a design manager.</h2>
+            <h2 className="h2">Hi, I'm Tom.</h2>
           </div>
           <div className="bio-body">
             <p className="paragraph paragraph--large">
-              My love for design started when I was a teenager designing merch and cd covers for local bands.
-              I pursued my passion for design by studying
-              Interactive Art and Media at Columbia College of Chicago.
+            Presently I am a high school teacher teaching art and design in Tāmaki Makaurau, so in a very real way people have always deeply informed my work. Anything I make or work on is guided by these set of values.
             </p>
             <p className="paragraph paragraph--large">
-              Everyday I’m motivated by the opportunity to solve real problems for people.
-              I’m always trying to improve my craft, continue learning, and help others grow as designers.
-            </p>
-            <p className="paragraph paragraph--large">
-              When I'm not designing you'll find me writing music, playing games, or at my local coffee shop.
-            </p>
+            Previously I studied at the Elam School of Fine Arts, where I also briefly taught the first and second year studio programme.</p>
           </div>
         </motion.section>
 
