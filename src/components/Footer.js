@@ -27,7 +27,7 @@ function Footer(props) {
             Want to talk?
           </h2>
           <h2 className={`${styles.title} ${styles.contact} `}>
-            <a href="mailto:tom@tomhackshaw.com">Send me an email.</a>
+            <a href="mailto:tom@tomhackshaw.com">Send me an email</a>
           </h2>
         </div>
         <nav className={styles.footerLinks}>
