@@ -85,7 +85,7 @@ const AboutPage = () => {
             <h2 className="h2">Hi, I'm Tom.</h2>
           </div>
           <div className="bio-body">
-            <p classname="paragraph paragraph--large">
+            <p className="paragraph paragraph--large">
             I am a designer interested in making products that are accessible, beautiful and fun.
             </p>
             <p className="paragraph paragraph--large">
@@ -97,7 +97,7 @@ const AboutPage = () => {
             <p className="paragraph paragraph--large">
             Find me on <a href="https://are.na/tom-y">are.na</a>, <a href="https://linkedin.com/in/tom-hackshaw">LinkedIn</a>, <a href="https://twitter.com/tomhackshaw">Twitter</a>, <a href="https://merveilles.town/@tomupom">Merveilles,</a>
 
-            or say hi: <a href="mailto:tom@tomhackshaw.com">tom@tomhackshaw.com</a> (PGP) / ~falsef-nostyp (Urbit)
+            or on Urbit at ~falsef-nostyp
             </p>
           </div>
         </motion.section>
