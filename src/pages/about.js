@@ -53,7 +53,7 @@ const AboutPage = () => {
           <link rel="canonical" href="https://danield.design/about/" />
         </Helmet>
         <Navigation onLinkEnter={linkEnter} onLinkLeave={cursorLeave} />
-        <Hero text="He aha te mea nui o te ao?  He tāngata, he tāngata, he tāngata." details={false} />
+        <Hero text="He aha te mea nui o te ao?  He tāngata, he tāngata, he tāngata. What is the most important thing in the world? It is people, it is people, it is people." details={false} />
   
         <ClientOnly>
           <Cursor cursorText={cursorText} cursorVariant={cursorVariant} />
@@ -85,11 +85,20 @@ const AboutPage = () => {
             <h2 className="h2">Hi, I'm Tom.</h2>
           </div>
           <div className="bio-body">
-            <p className="paragraph paragraph--large">
-            Presently I am a high school teacher teaching art and design in Tāmaki Makaurau, so in a very real way people have always deeply informed my work. Anything I make or work on is guided by these set of values.
+            <p classname="paragraph paragraph--large">
+            I am a designer interested in making products that are accessible, beautiful and fun.
             </p>
             <p className="paragraph paragraph--large">
-            Previously I studied at the Elam School of Fine Arts, where I also briefly taught the first and second year studio programme.</p>
+            Presently I am a high school teacher teaching art and design in Tāmaki Makaurau, so in a very real way people have always deeply informed my work. Anything I make or work on is guided by <a href="">these set of values</a>.
+            </p>
+            <p className="paragraph paragraph--large">
+            Previously I studied at the Elam School of Fine Arts, where I also briefly taught the first and second year studio programme.
+            </p>
+            <p className="paragraph paragraph--large">
+            Find me on <a href="https://are.na/tom-y">are.na</a>, <a href="https://linkedin.com/in/tom-hackshaw">LinkedIn</a>, <a href="https://twitter.com/tomhackshaw">Twitter</a>, <a href="https://merveilles.town/@tomupom">Merveilles,</a>
+
+            or say hi: <a href="mailto:tom@tomhackshaw.com">tom@tomhackshaw.com</a> (PGP) / ~falsef-nostyp (Urbit)
+            </p>
           </div>
         </motion.section>
 
